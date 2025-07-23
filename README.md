@@ -39,3 +39,6 @@ In this Dashboard, I've created a comprehensive view of road accidents for the y
 * Download data files from link given in Introduction.
 * Clone/download this repository to your local machine.
 * Open Dashboard report file (Road Accidents Dashboard.twbx) in tableau Desktop, to access the dashboard's interactivity.
+
+# DAX Formulas Used in Measures:
+## 1. Total Casualties For Current Year and Year on Year Growth
