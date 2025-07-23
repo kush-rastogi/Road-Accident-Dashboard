@@ -1,5 +1,5 @@
 # Road-Accident-Dashboard
-In this Dashboard, I've created a comprehensive view of road accidents for the years 2019 and 2022. The objective was to provide valuable insights to clients and shed light on accident trends.
+In this Dashboard, I've created a comprehensive view of road accidents for the years 2019 to 2022. The objective was to provide valuable insights to clients and shed light on accident trends.
 
 # About the project:
 * I used Excel for data cleaning to help strengthen my command of the fundamental spreadsheet tool.
@@ -33,3 +33,9 @@ In this Dashboard, I've created a comprehensive view of road accidents for the y
 # About the Dataset:
 * This dataset is specifically of UK region obatined from Kaggle
 * It has over half a million records collected over the time period 2019-2022.
+
+# Installation / Usage:
+* Install Tableau Desktop from Official Webiste.
+* Download data files from link given in Introduction.
+* Clone/download this repository to your local machine.
+* Open Dashboard report file (Road Accidents Dashboard.twbx) in tableau Desktop, to access the dashboard's interactivity.
