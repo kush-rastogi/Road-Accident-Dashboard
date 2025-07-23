@@ -17,3 +17,6 @@ In this Dashboard, I've created a comprehensive view of road accidents for the y
 📈 Data Visualization: Used Excel as a visualization tool. With the help of this, I have created attractive charts, graphs, and interactive visuals to present the data in an easy way.
 
 🔄 Dashboard Making: Finally, I built a dashboard in Excel by inserting slicers and timelines that allow users to interact with the data.
+
+# Introduction:
+* This project is aimed at developing a tableau Dashboard for generating insights about road accident data in the United Kingdom.
