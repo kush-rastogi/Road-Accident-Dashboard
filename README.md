@@ -29,3 +29,7 @@ In this Dashboard, I've created a comprehensive view of road accidents for the y
 * Casualties by Road Type for Current Year
 * Current Year Casualties by Area/Location & Day/Night
 * Total Casualties and Total Accident by Location
+
+# About the Dataset:
+* This dataset is specifically of UK region obatined from Kaggle
+* It has over half a million records collected over the time period 2019-2022.
