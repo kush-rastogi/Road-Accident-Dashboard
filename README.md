@@ -42,21 +42,21 @@ In this Dashboard, I've created a comprehensive view of road accidents for the y
 
 # DAX Formulas Used in Measures:
 ### 1. Total Casualties For Current Year and Year on Year Growth
-(a) Current Year To Date Casualties -- CY Casualties Measure
-* CY Casualties = TOTALYTD(SUM(Data[Number_of_Casualties]), 'Calendar'[Date])
+(a) Current Year To Date Casualties -- CY Casualties
+* SUM(IF YEAR([Accident Date])=[Current Year] THEN [Number of Casualties] END)
 
-(b) Previous Year Casualties -- PY Casualties Measure
-* PY Casualties = CALCULATE(SUM(Data[Number_of_Casualties]), SAMEPERIODLASTYEAR('Calendar'[Date]))
+(b) Previous Year Casualties -- PY Casualties 
+* SUM(IF YEAR([Accident Date])=[Previous Year] THEN [Number of Casualties] END)
 
-(c) Year on Year Growth of Casualties - YoY Casualties Measure
-* YoY Casualties = ([CY Casualties] - [PY Casualties])/[PY Casualties]
+(c) Year on Year Growth of Casualties - YoY Casualties
+* ([CY Casualties]-[PY Casualties])/[PY Casualties]
 
 ### 2. Total Accidents for Current Year and Year on Year Growth
-(a) Current Year Accidents Count -- CY Accidents Count Measure
-* CY Accidents Count = TOTALYTD(COUNT(Data[Accident_Index]), 'Calendar'[Date])
+(a) Current Year Accidents Count -- CY Accidents Count 
+* COUNT(IF YEAR([Accident Date]) = [Current Year] THEN [Index] END)
 
-(b) Previous Year Accidents Count -- PY Accidents Count Measure
-* PY Accidents Count = CALCULATE(COUNT(Data[Accident_Index]), SAMEPERIODLASTYEAR('Calendar'[Date]))
+(b) Previous Year Accidents Count -- PY Accidents Count
+* COUNT(IF YEAR([Accident Date]) = [Previous Year] THEN [Index] END)
 
-(c) Year on Year Growth of Accidents - YoY Accidents Measure
-* YoY Accidents = ([CY Accidents Count]-[PY Accidents Count])/[PY Accidents Count]
+(c) Year on Year Growth of Accidents - YoY Accidents
+* ([CY Accidents]-[PY Accidents])/[PY Accidents]
