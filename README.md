@@ -60,3 +60,7 @@ In this Dashboard, I've created a comprehensive view of road accidents for the y
 
 (c) Year on Year Growth of Accidents - YoY Accidents
 * ([CY Accidents]-[PY Accidents])/[PY Accidents]
+
+# Screenshot:
+![Road Accident Dashboard](Road%20Accident%20Dashboard.png)
+
