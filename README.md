@@ -20,3 +20,12 @@ In this Dashboard, I've created a comprehensive view of road accidents for the y
 
 # Introduction:
 * This project is aimed at developing a tableau Dashboard for generating insights about road accident data in the United Kingdom.
+
+# Dashboard Requirements:
+* Primary KPI's - Total Casualties and Total Accident values for Current Year and YoY Growth
+* Primary KPI's - Total Casualties by Accident Severity for Current Year and YoY Growth
+* Secondary KPI's - Total Casualties with respect to Vehicle Type for Current Year
+* Monthly Trend showing comparison of Casualties for Current Year and Previous Year
+* Casualties by Road Type for Current Year
+* Current Year Casualties by Area/Location & Day/Night
+* Total Casualties and Total Accident by Location
